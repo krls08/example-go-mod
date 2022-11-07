@@ -1,4 +1,4 @@
-package logger
+package go_logger_ex
 
 import "fmt"
 
