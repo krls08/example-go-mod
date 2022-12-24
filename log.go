@@ -5,5 +5,5 @@ import "fmt"
 var Version string = "1.0"
 
 func Log(msg string) {
-	fmt.Println("[LOG] " + msg)
+	fmt.Printf("\033[01;32m[LOG] %s\033[0m\n", msg)
 }
