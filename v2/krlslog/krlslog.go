@@ -25,7 +25,7 @@ func (l logger) Info(msg string) {
 }
 
 func (l logger) Error(msg string) {
-	log.Printf("\033[01;33m[WARNING]\t %s\033[0m\n", msg)
+	log.Printf("\033[01;31m[WARNING]\t %s\033[0m\n", msg)
 }
 
 func (l logger) Warning(msg string) {
